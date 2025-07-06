@@ -1,0 +1,154 @@
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+header {
+  background: #1e90ff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+    background-image: url(portfolio-background.jpg);
+    background-size: cover;
+    height: 900px;
+    width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+#about{
+    background-color:#0C2D48;
+}
+section {
+  max-width: 800px;
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px #1e90ff;
+   background-color:#0C2D48;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+footer {
+  background: #153649;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid whitesmoke;
+  color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+} */
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.heading{
+  height: 50px;
+  background-color: rgba(3,3,29,255);
+  color: #b085ff;
+  text-align: center;
+}
+nav{
+  height: 30px;
+  background-color: rgba(3,3,29,255);
+  color:beige;
+  display: flex;
+  align-items: center;
+  justify-content:flex-end ;
+}
+.navbar a{
+  text-decoration: none;
+  color:rgb(204, 204, 201);
+  margin : 50px;
+}
+.background{
+  height: 560px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.about{
+  height: 200px;
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 130px;
+}
+.profile-pic{
+  height: 250px;
+  width: 250px;
+  box-shadow: 5px 5px 5px #5b35e2;
+  margin: 150px;
+  border-radius: 50%;
+  background-size: cover ;
+}
+.head{
+  height: 60px; 
+  background-color: #1f0e59; 
+  color: #6D77F6; 
+  text-align: center;
+}
+.content{
+  height: 250px;
+  background-color: #6D77F6;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  gap: 10px;
+  padding: 20px 80px ;
+  font-weight: 500;
+ 
+}
+.contact{
+  height:100px;
+  background-color: #07091e;
+  color:rgb(204, 204, 201);
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 50px;
+  
+}
+.contact a{
+  color:rgb(204, 204, 201);
+  text-decoration: none;
+
+}
+.contact p{
+  margin-bottom: 20px;
+}
+
